@@ -41,7 +41,8 @@ with st.expander("ℹ️ - more about this app ", expanded=True):
    the MIT License.
 *  You can run pdf2mbox on the command line or in a Python script. You can find
    installation instructions [here](https://pypi.org/project/pdf2mbox/).
-*  This app is intended for demonstration purposes and one-off conversions.
+*  Best to install pdf2mbox in your computing environment if you plan to
+   process an extensive collection of PDFs or PDFs > 200 MB.
 *  You can learn more about the motivation for creating pdf2mbox and use cases
    [here](https://history-lab.github.io/pdf2mbox/).
 *  Columbia University's [History Lab](http://history-lab.org) created this
