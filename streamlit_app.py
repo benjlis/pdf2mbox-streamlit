@@ -24,9 +24,9 @@ if uploaded_pdf:
         for e in xms.emails:
             mbox.addmsg(e)
         st.success(f'MBOX with {len(xms.emails)} emails generated')
-        with open('test.mbox', 'r') as file:
+        with open(mbox_fname, 'r') as file:
             btn = st.download_button(label='download MBOX', data=file,
-                                     file_name='test.mbox')
+                                     file_name=mbox_fname)
         st.write('email metadata')
         df = pd.DataFrame(xms.email_metadata())
         st.write(df)
